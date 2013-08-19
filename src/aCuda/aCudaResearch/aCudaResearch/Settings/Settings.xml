@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<ExecutionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinSup>0.1</MinSup>
+  <MinConf>0.2</MinConf>
+  <StartNumber>10</StartNumber>
+  <EndNumber>100</EndNumber>
+  <DataSourcePath>source</DataSourcePath>
+  <Algorithms>
+    <Algorithm>FpGrowth</Algorithm>
+    <Algorithm>FpGrowth</Algorithm>
+  </Algorithms>
+</ExecutionSettings>

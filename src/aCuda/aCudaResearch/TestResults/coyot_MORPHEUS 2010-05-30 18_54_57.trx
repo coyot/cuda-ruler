@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="18607526-fc14-4896-a6e3-730159d90213" name="coyot@MORPHEUS 2010-05-30 18:54:57" runUser="Morpheus\coyot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1983e1a9-68c7-41e2-a4f5-1b3921e43e33">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\MGR\aCuda\src\aCuda\aCudaResearch\TestResults\coyot_MORPHEUS 2010-05-30 18_54_57">
+      <DeploymentItem filename="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\aCudaResearch.Moles.dll" />
+      <DeploymentItem filename="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch\bin\Debug\aCudaResearch.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-05-30T18:54:57.1113376+02:00" queuing="2010-05-30T18:55:02.0216185+02:00" start="2010-05-30T18:55:02.3676383+02:00" finish="2010-05-30T18:55:03.5577064+02:00" />
+  <TestDefinitions>
+    <UnitTest name="CountDummy928" storage="d:\mgr\acuda\src\acuda\acudaresearch\acudaresearch.tests\bin\debug\acudaresearch.tests.dll" id="6ac43eef-c295-6925-7e39-b868d4216de4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="863f663f-306c-4fa9-9419-a3434b29bafc" />
+      <TestMethod codeBase="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\bin\Debug\aCudaResearch.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="aCudaResearch.ExecutionSettingsTest, aCudaResearch.Tests" name="CountDummy928" />
+    </UnitTest>
+    <UnitTest name="CountDummy649" storage="d:\mgr\acuda\src\acuda\acudaresearch\acudaresearch.tests\bin\debug\acudaresearch.tests.dll" id="c78816d7-4f71-9853-4fae-de3aaf96798d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ab91c282-e2a2-484f-8157-e7510a4030e6" />
+      <TestMethod codeBase="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\bin\Debug\aCudaResearch.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="aCudaResearch.ExecutionSettingsTest, aCudaResearch.Tests" name="CountDummy649" />
+    </UnitTest>
+    <UnitTest name="CountDummy321" storage="d:\mgr\acuda\src\acuda\acudaresearch\acudaresearch.tests\bin\debug\acudaresearch.tests.dll" id="3b2be968-7fa9-efba-ccc0-1e150b4e1ee9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="92d9834d-5f8e-4145-8c74-af9426dc3ca4" />
+      <TestMethod codeBase="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\bin\Debug\aCudaResearch.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="aCudaResearch.ExecutionSettingsTest, aCudaResearch.Tests" name="CountDummy321" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\mgr\acuda\src\acuda\acudaresearch\acudaresearch.tests\bin\debug\acudaresearch.tests.dll" id="c7bcce17-f24f-dd92-5420-38dc73cfa022">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8f7e57d9-872e-464c-b869-411aecaff980" />
+      <TestMethod codeBase="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\bin\Debug\aCudaResearch.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="aCudaResearch.Tests.PlainTest, aCudaResearch.Tests" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="CountDummy345" storage="d:\mgr\acuda\src\acuda\acudaresearch\acudaresearch.tests\bin\debug\acudaresearch.tests.dll" id="880edd6c-b7ce-f5cb-06c2-0129d69a9e04">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2fbd8bbf-fc24-4c73-afa8-a1f0a3a8c7bb" />
+      <TestMethod codeBase="D:\MGR\aCuda\src\aCuda\aCudaResearch\aCudaResearch.Tests\bin\Debug\aCudaResearch.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="aCudaResearch.ExecutionSettingsTest, aCudaResearch.Tests" name="CountDummy345" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="880edd6c-b7ce-f5cb-06c2-0129d69a9e04" executionId="2fbd8bbf-fc24-4c73-afa8-a1f0a3a8c7bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c78816d7-4f71-9853-4fae-de3aaf96798d" executionId="ab91c282-e2a2-484f-8157-e7510a4030e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ac43eef-c295-6925-7e39-b868d4216de4" executionId="863f663f-306c-4fa9-9419-a3434b29bafc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b2be968-7fa9-efba-ccc0-1e150b4e1ee9" executionId="92d9834d-5f8e-4145-8c74-af9426dc3ca4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7bcce17-f24f-dd92-5420-38dc73cfa022" executionId="8f7e57d9-872e-464c-b869-411aecaff980" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2fbd8bbf-fc24-4c73-afa8-a1f0a3a8c7bb" testId="880edd6c-b7ce-f5cb-06c2-0129d69a9e04" testName="CountDummy345" computerName="MORPHEUS" duration="00:00:00.0238622" startTime="2010-05-30T18:55:02.4586435+02:00" endTime="2010-05-30T18:55:03.1546833+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab91c282-e2a2-484f-8157-e7510a4030e6" testId="c78816d7-4f71-9853-4fae-de3aaf96798d" testName="CountDummy649" computerName="MORPHEUS" duration="00:00:00.0003525" startTime="2010-05-30T18:55:03.1756845+02:00" endTime="2010-05-30T18:55:03.1796847+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="863f663f-306c-4fa9-9419-a3434b29bafc" testId="6ac43eef-c295-6925-7e39-b868d4216de4" testName="CountDummy928" computerName="MORPHEUS" duration="00:00:00.0003443" startTime="2010-05-30T18:55:03.2346879+02:00" endTime="2010-05-30T18:55:03.2396882+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="92d9834d-5f8e-4145-8c74-af9426dc3ca4" testId="3b2be968-7fa9-efba-ccc0-1e150b4e1ee9" testName="CountDummy321" computerName="MORPHEUS" duration="00:00:00.0003582" startTime="2010-05-30T18:55:03.2456885+02:00" endTime="2010-05-30T18:55:03.2536890+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f7e57d9-872e-464c-b869-411aecaff980" testId="c7bcce17-f24f-dd92-5420-38dc73cfa022" testName="TestMethod1" computerName="MORPHEUS" duration="00:00:00.0003792" startTime="2010-05-30T18:55:03.2586892+02:00" endTime="2010-05-30T18:55:03.2626895+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
