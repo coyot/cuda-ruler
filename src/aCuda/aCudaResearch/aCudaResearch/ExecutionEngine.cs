@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using aCudaResearch.Algorithms;
+using CudaRuler.Algorithms;
 
-namespace aCudaResearch
+namespace CudaRuler
 {
     /// <summary>
     /// This class will be used to execute research experiments.

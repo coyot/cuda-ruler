@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace aCudaResearch.Tests
+namespace CudaRuler.Tests
 {
     /// <summary>
     /// Summary description for PlainTest

@@ -6,9 +6,9 @@ using System.Reflection;
 using System.Text;
 using GASS.CUDA;
 using GASS.CUDA.Types;
-using aCudaResearch.Cuda;
+using CudaRuler.Cuda;
 
-namespace aCudaResearch.Helpers
+namespace CudaRuler.Helpers
 {
     public static class CudaListHelper
     {

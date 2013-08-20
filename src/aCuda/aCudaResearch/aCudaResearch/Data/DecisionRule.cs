@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Data.MsWeb;
+using CudaRuler.Data.MsWeb;
 
-namespace aCudaResearch.Data
+namespace CudaRuler.Data
 {
     /// <summary>
     /// Representation of the decision rule in the system.
@@ -51,7 +51,7 @@ namespace aCudaResearch.Data
         /// Prepare rule as the string object. It uses information from the MsWeb data input.
         /// </summary>
         /// <param name="dataBaseSize">Number of elements in the input data.</param>
-        /// <param name="attributes">Set of attributes of the data (<see cref="aCudaResearch.Data.MsWeb.MsInstance{T}"/>)</param>
+        /// <param name="attributes">Set of attributes of the data (<see cref="CudaRuler.Data.MsWeb.MsInstance{T}"/>)</param>
         /// <returns>String which represents the rule.</returns>
         public string ToString(int dataBaseSize, Dictionary<T, MsElement> attributes)
         {

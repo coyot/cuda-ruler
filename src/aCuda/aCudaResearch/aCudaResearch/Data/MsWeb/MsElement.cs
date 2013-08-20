@@ -1,4 +1,4 @@
-﻿namespace aCudaResearch.Data.MsWeb
+﻿namespace CudaRuler.Data.MsWeb
 {
     /// <summary>
     /// Describes entry from the MsWeb data.
@@ -6,7 +6,7 @@
     public class MsElement
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="aCudaResearch.FpGrowth.Data.MsWeb.MsElement"/> class.
+        /// Initializes a new instance of the <see cref="CudaRuler.FpGrowth.Data.MsWeb.MsElement"/> class.
         /// </summary>
         public MsElement(string title, string url)
         {
@@ -26,11 +26,11 @@
 
         /// <summary>
         /// Returns a <see cref="T:System.String"/> that represents 
-        /// the current <see cref="aCudaResearch.FpGrowth.Data.MsWeb.MsElement"/>.
+        /// the current <see cref="CudaRuler.FpGrowth.Data.MsWeb.MsElement"/>.
         /// </summary>
         /// <returns>
         /// A <see cref="T:System.String"/> that represents 
-        /// the current <see cref="aCudaResearch.FpGrowth.Data.MsWeb.MsElement"/>.
+        /// the current <see cref="CudaRuler.FpGrowth.Data.MsWeb.MsElement"/>.
         /// </returns>
         /// <filterpriority>2</filterpriority>
         public override string ToString()

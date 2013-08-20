@@ -4,17 +4,17 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
-using aCudaResearch.Cuda;
-using aCudaResearch.Data;
-using aCudaResearch.Data.MsWeb;
-using aCudaResearch.Helpers;
+using CudaRuler.Cuda;
+using CudaRuler.Data;
+using CudaRuler.Data.MsWeb;
+using CudaRuler.Helpers;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using GASS.CUDA;
 using GASS.CUDA.Types;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     public class MsWebCudaAprioriAlgorithm : MsWebAbstractAlgorithm
     {

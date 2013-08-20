@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Data;
-using aCudaResearch.Helpers;
+using CudaRuler.Data;
+using CudaRuler.Helpers;
 
-namespace aCudaResearch.Algorithms.FpGrowth
+namespace CudaRuler.Algorithms.FpGrowth
 {
     public class TreeExplorer<T>
     {

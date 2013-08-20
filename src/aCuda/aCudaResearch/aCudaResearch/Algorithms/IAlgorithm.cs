@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     /// <summary>
     /// Representation of the algorithm implementations

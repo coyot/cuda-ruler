@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using GASS.CUDA;
 using GASS.CUDA.Types;
 
-namespace aCudaResearch
+namespace CudaRuler
 {
     public class CudaFunctionCall
     {

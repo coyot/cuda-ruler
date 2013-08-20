@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace aCudaResearch.Data.MsWeb
+namespace CudaRuler.Data.MsWeb
 {
     public class MsInstance<T>
     {

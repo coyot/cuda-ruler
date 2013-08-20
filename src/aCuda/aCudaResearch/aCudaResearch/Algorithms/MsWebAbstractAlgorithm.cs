@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Data;
-using aCudaResearch.Data.MsWeb;
+using CudaRuler.Data;
+using CudaRuler.Data.MsWeb;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     /// <summary>
     /// Representation of the algorithm which uses MSWeb Data as the input.

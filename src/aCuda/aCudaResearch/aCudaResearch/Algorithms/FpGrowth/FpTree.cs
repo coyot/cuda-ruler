@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace aCudaResearch.Algorithms.FpGrowth
+namespace CudaRuler.Algorithms.FpGrowth
 {
     public class FpTree<T>
     {

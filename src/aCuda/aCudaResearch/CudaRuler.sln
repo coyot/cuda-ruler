@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aCudaResearch", "aCudaResearch\aCudaResearch.csproj", "{BDD5DBA3-4C36-4A66-B63E-2E2D182FA508}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CudaRuler", "aCudaResearch\CudaRuler.csproj", "{BDD5DBA3-4C36-4A66-B63E-2E2D182FA508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aCudaResearch.Tests", "aCudaResearch.Tests\aCudaResearch.Tests.csproj", "{45DCD77E-3361-4939-ACFD-CEAE7EED840C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CudaRuler.Tests", "aCudaResearch.Tests\CudaRuler.Tests.csproj", "{45DCD77E-3361-4939-ACFD-CEAE7EED840C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿namespace aCudaResearch
+﻿namespace CudaRuler
 {
     public enum AlgorithmType
     {

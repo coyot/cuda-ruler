@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using aCudaResearch.Data;
-using aCudaResearch.Data.MsWeb;
-using aCudaResearch.Helpers;
+using CudaRuler.Data;
+using CudaRuler.Data.MsWeb;
+using CudaRuler.Helpers;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     public class MsWebParallelAprioriAlgorithm : MsWebAbstractAlgorithm
     {

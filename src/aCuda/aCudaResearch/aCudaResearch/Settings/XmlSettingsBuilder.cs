@@ -6,7 +6,7 @@ using System.Xml.Linq;
 using System.IO;
 using System.Xml.Serialization;
 
-namespace aCudaResearch.Settings
+namespace CudaRuler.Settings
 {
     public class XmlSettingsBuilder : ISettingsBuilder
     {

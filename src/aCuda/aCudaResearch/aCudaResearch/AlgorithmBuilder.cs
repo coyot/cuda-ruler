@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Algorithms;
+using CudaRuler.Algorithms;
 
-namespace aCudaResearch
+namespace CudaRuler
 {
     public static class AlgorithmBuilder
     {

@@ -7,7 +7,7 @@ using System.IO;
 using System.Diagnostics.Contracts;
 using System.Xml.Serialization;
 
-namespace aCudaResearch
+namespace CudaRuler
 {
     [Serializable]
     public class ExecutionSettings

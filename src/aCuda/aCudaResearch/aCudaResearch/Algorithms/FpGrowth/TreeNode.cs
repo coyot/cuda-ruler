@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace aCudaResearch.Algorithms.FpGrowth
+namespace CudaRuler.Algorithms.FpGrowth
 {
     public class TreeNode<T>
     {

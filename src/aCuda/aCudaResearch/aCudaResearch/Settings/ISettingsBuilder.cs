@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics.Contracts;
 
-namespace aCudaResearch.Settings
+namespace CudaRuler.Settings
 {
     /// <summary>
     /// Definition of builder interface to prepare <see link="ExecutionSettings"/> ojbect.

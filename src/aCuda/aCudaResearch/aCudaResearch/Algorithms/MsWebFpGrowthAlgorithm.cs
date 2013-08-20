@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Algorithms.FpGrowth;
-using aCudaResearch.Data;
-using aCudaResearch.Data.MsWeb;
+using CudaRuler.Algorithms.FpGrowth;
+using CudaRuler.Data;
+using CudaRuler.Data.MsWeb;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     /// <summary>
     /// FPGrowth Algorithm where the data is from the MsWeb dataset.

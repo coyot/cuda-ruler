@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using aCudaResearch.Data;
-using aCudaResearch.Data.MsWeb;
-using aCudaResearch.Helpers;
+using CudaRuler.Data;
+using CudaRuler.Data.MsWeb;
+using CudaRuler.Helpers;
 
-namespace aCudaResearch.Algorithms
+namespace CudaRuler.Algorithms
 {
     public class MsWebAprioriAlgorithm : MsWebAbstractAlgorithm
     {

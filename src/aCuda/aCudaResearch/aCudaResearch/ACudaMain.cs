@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using Mono.Options;
-using aCudaResearch.Helpers;
-using aCudaResearch.Settings;
+using CudaRuler.Helpers;
+using CudaRuler.Settings;
 
-namespace aCudaResearch
+namespace CudaRuler
 {
     /// <summary>
     /// Main class of the aCuda project.

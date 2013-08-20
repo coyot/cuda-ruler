@@ -2,7 +2,7 @@
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace aCudaResearch.Cuda
+namespace CudaRuler.Cuda
 {
     public class BitmapWrapper
     {

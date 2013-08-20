@@ -1,4 +1,4 @@
-﻿namespace aCudaResearch.Cuda
+﻿namespace CudaRuler.Cuda
 {
     public class ProjectConstants
     {

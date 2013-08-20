@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace aCudaResearch.Data.MsWeb
+namespace CudaRuler.Data.MsWeb
 {
     public class MsDataBuilder : IDataBuilder<MsInstance<int>>
     {
