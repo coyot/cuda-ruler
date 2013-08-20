@@ -13,7 +13,7 @@ namespace aCudaResearch.Algorithms
     /// </summary>
     public class MsWebFpGrowthAlgorithm : MsWebAbstractAlgorithm
     {
-        public override void Run(ExecutionSettings executionSettings)
+        public override void Run(ExecutionSettings executionSettings, bool printRules)
         {
             builder = new MsDataBuilder();
             var data = builder.BuildInstance(executionSettings);
@@ -25,6 +25,8 @@ namespace aCudaResearch.Algorithms
 
             var treeExplorer = new TreeExplorer<int>((int)(data.Transactions.Keys.Count * executionSettings.MinSup));
             var rules = treeExplorer.GenerateRuleSet(tree, executionSettings.MinConf);
+
+            if (!printRules) return;
 
             var result = PrintRules(rules, executionSettings.DataSourcePath, executionSettings.MinSup, executionSettings.MinConf, data.Transactions.Keys.Count, data.Elements);
             Console.WriteLine(result);

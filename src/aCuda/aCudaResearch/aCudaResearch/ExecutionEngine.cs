@@ -15,7 +15,10 @@ namespace aCudaResearch
     {
         private readonly ExecutionSettings _settings;
         private Dictionary<AlgorithmType, IAlgorithm> Algorithms;
-        
+        private int NUMBER_OF_RUNS = 1;
+
+        public static List<long> HackTimes { get; set; }
+
         /// <summary>
         /// Programm execution settings.
         /// </summary>
@@ -34,14 +37,16 @@ namespace aCudaResearch
             // prepare the pool of algorithms
             Algorithms = new Dictionary<AlgorithmType, IAlgorithm>();
             PrepareAlgorithms();
+            HackTimes = new List<long>();
         }
 
         /// <summary>
         /// Engine main method to execute computation process.
         /// </summary>
-        public Dictionary<AlgorithmType, long> ExecuteComputation()
+        /// <param name="printRules">Specifies if the association rules</param>
+        /// <returns>Dictionary of times per each executed algorithm</returns>
+        public Dictionary<AlgorithmType, long> ExecuteComputation(bool printRules)
         {
-            //! here the computation time measuring should be placed!!!
             var result = new Dictionary<AlgorithmType, long>();
 
             Console.WriteLine("Computation will be executed.");
@@ -49,13 +54,29 @@ namespace aCudaResearch
 
             foreach (var algorithm in Settings.Algorithms)
             {
-                var stopWatch = new Stopwatch();
-                
-                stopWatch.Start();
-                Algorithms[algorithm].Run(Settings);
-                stopWatch.Stop();
+                for (int i = 0; i < NUMBER_OF_RUNS; i++)
+                {
+                    var stopWatch = new Stopwatch();
 
-                result.Add(algorithm, stopWatch.ElapsedMilliseconds);
+                    stopWatch.Start();
+                    Algorithms[algorithm].Run(Settings, printRules);
+                    stopWatch.Stop();
+
+                    var time = algorithm == AlgorithmType.CudaApriori
+                                   ? stopWatch.ElapsedMilliseconds - HackTimes[i]
+                                   : stopWatch.ElapsedMilliseconds;
+
+                    if (result.ContainsKey(algorithm))
+                    {
+                        result[algorithm] += time;
+                    }
+                    else
+                    {
+                        result.Add(algorithm, time);
+                    }
+
+                }
+                result[algorithm] = result[algorithm]/NUMBER_OF_RUNS;
             }
 
             return result;

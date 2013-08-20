@@ -14,7 +14,7 @@ namespace aCudaResearch.Algorithms
     {
         internal MsDataBuilder builder;
 
-        public abstract void Run(ExecutionSettings executionSettings);
+        public abstract void Run(ExecutionSettings executionSettings, bool printResults);
 
         internal static string PrintRules(IList<DecisionRule<int>> rules, string inputFile, double minSupport, double minConfidence, int databaseSize, Dictionary<int, MsElement> elements)
         {

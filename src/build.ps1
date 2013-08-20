@@ -73,6 +73,7 @@ task Clean {
 task Init -depends Clean, GetProjects {
     New-Item $release_dir -ItemType directory | Out-Null
     New-Item $build_dir -ItemType directory | Out-Null
+    Copy-Item $source_dir\aCudaResearch\Data\Settings.xml $build_dir\Settings.xml
     
     # generate assembly infos
 	if($script:projects) {

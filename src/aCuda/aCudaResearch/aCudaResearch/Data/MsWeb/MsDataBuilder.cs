@@ -8,7 +8,7 @@ namespace aCudaResearch.Data.MsWeb
     {
         public MsInstance<int> BuildInstance(ExecutionSettings executionSettings)
         {
-            var instance = new MsInstance<int>();
+            var instance = new MsInstance<int>(executionSettings.TransactionsNumber);
             if (!File.Exists(executionSettings.DataSourcePath))
             {
                 //! here an exception should be thrown!

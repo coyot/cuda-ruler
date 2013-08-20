@@ -3,6 +3,8 @@
     public enum AlgorithmType
     {
         Apriori,
-        FpGrowth
+        FpGrowth,
+        ParallelApriori,
+        CudaApriori
     }
 }

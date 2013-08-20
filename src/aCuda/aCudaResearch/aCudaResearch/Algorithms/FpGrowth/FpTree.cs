@@ -108,6 +108,11 @@ namespace aCudaResearch.Algorithms.FpGrowth
             {
                 return false;
             }
+            if (_children.Values.Count == 0)
+            {
+                return false;
+            }
+
             return _children.Values.First().IsInSinglePath();
         }
 

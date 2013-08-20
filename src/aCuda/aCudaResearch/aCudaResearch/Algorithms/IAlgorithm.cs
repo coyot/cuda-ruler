@@ -15,6 +15,6 @@ namespace aCudaResearch.Algorithms
         /// 
         /// This method should also contain the measurement process!
         /// </summary>
-        void Run(ExecutionSettings executionSettings);
+        void Run(ExecutionSettings executionSettings, bool printResults);
     }
 }

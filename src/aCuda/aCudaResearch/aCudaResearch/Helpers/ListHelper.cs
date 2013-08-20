@@ -18,7 +18,9 @@ namespace aCudaResearch.Helpers
         /// <returns>True if the set is frequent, false otherwise</returns>
         public static bool IsFrequent<T>(this IList<T> list, Dictionary<T, T[]> transactions, double support)
         {
-            return list.GetSupport(transactions) >= (support*transactions.Count);
+            var localSupport = list.GetSupport(transactions);
+
+            return localSupport >= (support * transactions.Count);
         }
 
         /// <summary>
@@ -51,12 +53,15 @@ namespace aCudaResearch.Helpers
         /// <returns>True if two lists are the same, false otherwise</returns>
         public static bool AreEqual<T>(this IEnumerable<T> first, IEnumerable<T> second)
         {
-            if (first.Count() == 0 && second.Count() == 0)
+            var firstCount = first.Count();
+            var secondCount = second.Count();
+
+            if (firstCount == 0 && secondCount == 0)
             {
                 return true;
             }
 
-            return first.Count() == second.Count() && first.Where(element => second.Contains(element) == true).Any();
+            return firstCount == secondCount && first.Where(element => second.Contains(element)).Any();
         }
 
         /// <summary>

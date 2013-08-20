@@ -13,6 +13,6 @@ namespace aCudaResearch.Algorithms
     {
         private MsDataBuilder builder;
 
-        public abstract void Run(ExecutionSettings executionSettings);
+        public abstract void Run(ExecutionSettings executionSettings, bool printRules);
     }
 }

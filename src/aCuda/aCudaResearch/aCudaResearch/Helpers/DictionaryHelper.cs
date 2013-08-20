@@ -12,12 +12,17 @@ namespace aCudaResearch.Helpers
         /// later substituted by the writing result into the file)
         /// </summary>
         /// <param name="dictionary">File with the results</param>
-        public static void Print(this Dictionary<AlgorithmType, long> dictionary)
+        public static string Print(this Dictionary<AlgorithmType, long> dictionary)
         {
+            var sBuilder = new StringBuilder();
+
             foreach (var keyVale in dictionary)
             {
-                Console.WriteLine("{0}\t{1}ms", keyVale.Key.ToString(), keyVale.Value);
+                sBuilder.Append(keyVale.Value)
+                    .Append(" ");
             }
+            sBuilder.AppendLine();
+            return sBuilder.ToString();
         }
     }
 }

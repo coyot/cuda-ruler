@@ -5,6 +5,8 @@ namespace aCudaResearch.Data.MsWeb
 {
     public class MsInstance<T>
     {
+        private int _maxTransactions;
+        private int _numberOfTransactions;
         #region Data information
 
         public const int IdPlace = 1;
@@ -14,18 +16,24 @@ namespace aCudaResearch.Data.MsWeb
 
         /// <summary>
         /// Information about individual elements from the website.
+        /// 
+        /// e_id -> info
         /// </summary>
         public Dictionary<T, MsElement> Elements { get; set; }
 
         /// <summary>
         /// Read data from the archive file.
+        /// 
+        /// t_id -> table od e_ids
         /// </summary>
         public Dictionary<T, T[]> Transactions { get; set; }
 
-        public MsInstance()
+        public MsInstance(int maxTransactions)
         {
             Elements = new Dictionary<T, MsElement>();
             Transactions = new Dictionary<T, T[]>();
+            _maxTransactions = maxTransactions;
+            _numberOfTransactions = 0;
         }
 
         /// <summary>
@@ -51,7 +59,11 @@ namespace aCudaResearch.Data.MsWeb
         /// <param name="values">Data associated with this element.</param>
         public void AddEntry(T id, T[] values)
         {
-            Transactions.Add(id, values);
+            if (_numberOfTransactions < _maxTransactions)
+            {
+                Transactions.Add(id, values);
+                _numberOfTransactions++;
+            }
         }
     }
 }

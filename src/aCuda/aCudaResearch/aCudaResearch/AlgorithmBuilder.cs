@@ -21,6 +21,10 @@ namespace aCudaResearch
                         return new MsWebFpGrowthAlgorithm();
                     case AlgorithmType.Apriori:
                         return new MsWebAprioriAlgorithm();
+                    case AlgorithmType.ParallelApriori:
+                        return new MsWebParallelAprioriAlgorithm();
+                    case AlgorithmType.CudaApriori:
+                        return new MsWebCudaAprioriAlgorithm();
                 }
             }
 

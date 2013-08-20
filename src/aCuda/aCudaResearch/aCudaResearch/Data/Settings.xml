@@ -7,7 +7,9 @@
   <DataSourcePath>D:\MGR\Data\MsWeb\msweb.data</DataSourcePath>
   <DataSourceType>MsData</DataSourceType>
   <Algorithms>
-    <Algorithm>FpGrowth</Algorithm>
     <Algorithm>Apriori</Algorithm>
+    <Algorithm>FpGrowth</Algorithm>
+    <Algorithm>ParallelApriori</Algorithm>
+    <Algorithm>CudaApriori</Algorithm>
   </Algorithms>
 </ExecutionSettings>

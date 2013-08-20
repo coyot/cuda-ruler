@@ -2,11 +2,13 @@
 <ExecutionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MinSup>0.1</MinSup>
   <MinConf>0.2</MinConf>
-  <StartNumber>10</StartNumber>
-  <EndNumber>100</EndNumber>
-  <DataSourcePath>source</DataSourcePath>
+  <TransactionsNumber>1000</TransactionsNumber>
+  <DataSourcePath>D:\MGR\Data\MsWeb\msweb.data</DataSourcePath>
+  <DataSourceType>MsData</DataSourceType>
   <Algorithms>
+    <Algorithm>Apriori</Algorithm>
     <Algorithm>FpGrowth</Algorithm>
-    <Algorithm>FpGrowth</Algorithm>
+    <Algorithm>ParallelApriori</Algorithm>
+    <Algorithm>CudaApriori</Algorithm>
   </Algorithms>
 </ExecutionSettings>
